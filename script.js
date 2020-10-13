@@ -6,6 +6,32 @@ var Navbar = function Navbar() {
             "a",
             { className: "navbar-brand", href: "#" },
             "Navbar"
+        ),
+        React.createElement(
+            "div",
+            { className: "collapse navbar-collapse", id: "navbarNav" },
+            React.createElement(
+                "ul",
+                { className: "navbar-nav" },
+                React.createElement(
+                    "li",
+                    { className: "nav-item" },
+                    React.createElement(
+                        "a",
+                        { className: "nav-link", href: "index.html" },
+                        "Home"
+                    )
+                ),
+                React.createElement(
+                    "li",
+                    { className: "nav-item" },
+                    React.createElement(
+                        "a",
+                        { className: "nav-link", href: "press.html" },
+                        "Press"
+                    )
+                )
+            )
         )
     );
 };
