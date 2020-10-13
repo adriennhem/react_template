@@ -32,7 +32,7 @@ var Footer = function Footer() {
 
 var Template = function Template(props) {
     return React.createElement(
-        "div",
+        React.Fragment,
         null,
         React.createElement(Navbar, null),
         React.createElement(

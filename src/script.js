@@ -26,7 +26,7 @@ const Footer = () => {
 
 const Template = (props) => {
     return (
-        <div>
+        <React.Fragment>
             <Navbar />
             <div className="container py-4">
                 <div className="row">
@@ -37,7 +37,7 @@ const Template = (props) => {
                 </div>
             </div>
             <Footer />
-        </div>
+        </React.Fragment>
     );
 }
 
